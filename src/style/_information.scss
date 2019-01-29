@@ -9,6 +9,11 @@
         {
             font-size: 12px;
         }
+
+        a::before
+        {
+            content: "Download OpenAPI specification: ";
+        }
     }
     p, li, table
     {
@@ -66,7 +71,7 @@
 
         margin: 0;
 
-        @include text_body();
+        @include text_body(#004489);
 
         small
         {
